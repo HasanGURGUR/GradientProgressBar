@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/activity_main_progress_bar_calories"
+        style="@style/MacroHorizontalProgressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_margin="20dp"
+        android:progressDrawable="@drawable/progress_bar_green_scaled"
+        tools:progress="100" />
+
+    <Button
+        android:id="@+id/btnIncrease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:backgroundTint="@color/black"
+        android:text="Increase" />
+
+    <Button
+        android:id="@+id/btnDecrease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:backgroundTint="@color/black"
+        android:text="Decrease" />
+
+</LinearLayout>
